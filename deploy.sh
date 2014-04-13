@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo Running tests.
+echo ----------------------------------------------
+jasmine-node spec/
 echo Committing Changes and bumping version number.
 echo ----------------------------------------------
 node packageversionbump.js

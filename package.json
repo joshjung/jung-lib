@@ -1,7 +1,7 @@
 {
     "name": "jung-lib",
     "preferGlobal": false,
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Commonly used functions and library utilities across my projects.",
     "license": "MIT",
     "main": "jung-lib.js",
