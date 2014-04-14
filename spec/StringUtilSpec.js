@@ -16,4 +16,7 @@ describe("StringUtil", function() {
     it("should set prototype.iff to a function", function() {
         expect("abc".iff(false)).toEqual("");
     });
+    it("should set prototype.esc to a function", function() {
+        expect("^$".esc).toEqual("\^\$");
+    });
 });
