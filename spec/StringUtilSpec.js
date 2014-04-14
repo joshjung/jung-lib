@@ -10,4 +10,10 @@ describe("StringUtil", function() {
     it("should set prototype.repeat to a function", function() {
         expect("abc".repeat(4)).toEqual("abcabcabcabc");
     });
+    it("should set prototype.iff to a function", function() {
+        expect("abc".iff(true)).toEqual("abc");
+    });
+    it("should set prototype.iff to a function", function() {
+        expect("abc".iff(false)).toEqual("");
+    });
 });
